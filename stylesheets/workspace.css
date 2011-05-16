@@ -39,7 +39,7 @@ body {
 
 .content{
     position: relative;
-    width: 200%;
+    width: 100%;
     height: 100%;
 }
 
@@ -50,9 +50,9 @@ body {
 
 .workspace {
     position: absolute;
-    left: 15%;
+    left: 24%;
     bottom: 0px;
-    width: 35%;
+    width: 75%;
     height: 95%;
     background-color: #FFF;
     border: 1px solid #CCC;
@@ -72,16 +72,9 @@ body {
 
 .tab_bar{
     position: absolute;
-    left: 15%;
+    left: 24%;
     bottom: 95%;
-    width: 35%;
-}
-
-.tab_bar2{
-    position: absolute;
-    right: 0%;
-    bottom: 95%;
-    width: 50%;
+    width: 75%;
 }
 
 .chrome_tab{
@@ -121,7 +114,7 @@ body {
 
 .block_menu{
     position: absolute;
-    width: 15%;
+    width: 24%;
     height: 100%;
     left: 0px;
     top: 0px;

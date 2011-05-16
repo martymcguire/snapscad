@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Waterbear</title>
+    <title>SnapSCAD</title>
     <link href="stylesheets/workspace.css" rel="stylesheet" />
     <link href="stylesheets/blocks.css" rel="stylesheet" />
-    <link href="stylesheets/raphael_demo.css" rel="stylesheet" />
+    <link href="stylesheets/snapscad.css" rel="stylesheet" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="viewport" content="height=device-height, initial-scale=1.0" />
@@ -17,36 +17,25 @@
     <div class="content">
         <div class="block_menu">
             <section class="submenu">
-                <h3 class="select selected">About Waterbear</h3>
+                <h3 class="select selected">About SnapSCAD</h3>
                 <div class="option">
-                    <img src="images/waterbear.png" />
-                    <p>Demo: <a href="http://waterbearlang.com/">waterbearlang.com</a></p>
-                    <p>Source and info: <a href="http://github.com/dethe/waterbear">github.com/dethe/waterbear</a></p>
-                    <p>Follow on twitter: <a href="http://twitter.com/waterbearlang">@waterbearlang</a></p>
-                    <p>Waterbear image via: <a href="http://commons.wikimedia.org/wiki/File:Waterbear.jpg">commons.wikimedia.org</a>
+                    <p>Source and info: <a href="http://github.com/martymcguire/snapscad">github.com/martymcguire/snapscad</a></p>
+                    <p>Built on Waterbear: <a href="http://github.com/dethe/waterbear">github.com/dethe/waterbear</a></p>
                 </div>
             </section>
         </div>
         <div class="tab_bar">
             <div class="scripts_workspace_tab chrome_tab selected">Script Blocks</div>
             <div class="scripts_text_view_tab chrome_tab">Script Text</div>
-            <button class="run_scripts">Run</button>
-            <button class="goto_stage">Show Stage</button>
             <button class="clear_scripts">Clear Scripts</button>
             <button class="demo_scripts">Demos</button>
             <button class="save_scripts">Save</button>
             <button class="restore_scripts">Restore</button>
         </div>
-        <div class="tab_bar2">
-            <button class="goto_script">Back to Script</button>
-            <button class="clear_canvas">Clear Stage</button>
-            <button class="run_scripts">Run</button>
-        </div>
         <div class="workspace">
             <div class="scripts_workspace"></div>
             <div class="scripts_text_view"></div>
         </div>
-        <div class="stage"></div>
     </div>
     <div class="hidden" id="color_popup">
         <div id="color_contents"></div>
@@ -88,6 +77,6 @@
     <script src="scripts/blocks.js"></script>
     <script src="scripts/runtime.js"></script>
     <script src="scripts/workspace.js"></script>
-    <script src="scripts/raphael_demo.js"></script>
+    <script src="scripts/snapscad.js"></script>
   </body>
 </html>

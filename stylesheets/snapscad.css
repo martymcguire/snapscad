@@ -1,0 +1,24 @@
+/* block and border colours for different groups of blocks */
+
+.operations{ border-color: hsl(264,62%,79%); }
+.operations > .block{ background-color: hsl(264,62%,89%); }
+
+.transform{ border-color: hsl(296, 65%, 57%); }
+.transform > .block{ background-color: hsl(296, 65%, 77%); }
+
+.control{ border-color: hsl(44, 81%, 49%); }
+.control > .block{ background-color: hsl(44, 81%, 85%); }
+
+.operators{ border-color: hsl(93,90%,66%); }
+.operators > .block{ background-color: hsl(93,90%,76%); }
+
+.shapes{ border-color: #e66a22; }
+.shapes > .block{ background-color: #e66a22; }
+
+/* Border colours for type values and sockets */
+
+.boolean{ border-color: red; }
+.number{ border-color: blue; }
+.color{ border-color: yellow; }
+.string{ border-color: green; }
+.string input{ min-width: 3em; }
