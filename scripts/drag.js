@@ -214,26 +214,8 @@
             // console.log('remove drag target');
             drag_target.remove();
         }else{
-            if (cloned){
-                // console.log('remove cloned block');
-                drag_target.remove();
-            }else{
-                // console.log('put block back where we found it');
-                if (start_parent){
-                    if (start_parent.is('.socket')){
-                        start_parent.children('input').remove();
-                    }
-                    start_parent.append(drag_target);
-                    drag_target.css({
-                        position: 'relative',
-                        top: 0,
-                        left: 0
-                    });
-                }else{
-                    target_canvas.append(drag_target);
-                    drag_target.offset(start_position);
-                }
-            }
+            // console.log('remove cloned block');
+            drag_target.remove();
         }
     }
         
